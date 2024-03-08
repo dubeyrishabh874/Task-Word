@@ -7,6 +7,44 @@
   pointer-events: none;
 }
 
+.ant-select {
+  border-radius: 2px;
+  opacity: 0.4;
+  background: #fff;
+  box-shadow: 0px 1px 10px 0px #19878f;
+  border-color: #8bc0c3;
+}
+
+.ant-input-outlined {
+  border-radius: 2px;
+  opacity: 0.4;
+  background: #fff;
+  box-shadow: 0px 1px 10px 0px #19878f;
+  border-color: #8bc0c3;
+}
+
+.ant-picker-outlined { 
+  border-radius: 2px;
+  opacity: 0.4;
+  background: #fff;
+  box-shadow: 0px 1px 10px 0px #19878f;
+  border-color: #8bc0c3;
+  width: -webkit-fill-available;
+}
+
+.ant-upload-wrapper .ant-upload-select { 
+  border-radius: 2px;
+  opacity: 0.4;
+  background: #fff;
+  box-shadow: 0px 1px 10px 0px #19878f;
+  border-color: #8bc0c3;
+  width: -webkit-fill-available;
+}
+
+.ant-btn {
+  width: -webkit-fill-available;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
@@ -36,3 +74,5 @@
     transform: rotate(360deg);
   }
 }
+
+

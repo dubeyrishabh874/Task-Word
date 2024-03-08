@@ -1,0 +1,54 @@
+.ant-steps .ant-steps-item-process .ant-steps-item-icon {
+  background-color: #077078 !important;
+  border-color: #077078 !important;
+}
+
+.ant-steps
+  .ant-steps-item-process
+  > .ant-steps-item-container
+  > .ant-steps-item-content
+  > .ant-steps-item-title {
+  color: #077078;
+}
+
+.ant-steps
+  .ant-steps-item-finish
+  > .ant-steps-item-container
+  > .ant-steps-item-content
+  > .ant-steps-item-title {
+  color: #19878f;
+}
+
+.ant-steps .ant-steps-item-finish .ant-steps-item-icon {
+  background-color: #077078 !important;
+  border-color: #077078 !important;
+}
+
+.ant-steps-item-finish
+  > .ant-steps-item-container
+  > .ant-steps-item-tail::after {
+  background-color: #077078 !important;
+}
+
+.ant-steps .ant-steps-item-finish .ant-steps-item-icon > .ant-steps-icon {
+  color: #d9d9d9;
+}
+
+.verifaction_img {
+  /* mix-blend-mode:multiply; */
+  mix-blend-mode: darken;
+}
+
+@media only screen and (max-device-width: 480px) {
+  .logo1 {
+    display: none;
+  }
+  .ant-form {
+    overflow: auto;
+    padding: 10px;
+    height: 400px;
+  }
+  .ant-space-item {
+    width: -webkit-fill-available;
+  }
+}

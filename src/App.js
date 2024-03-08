@@ -1,24 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
+// App.js
+import React, { useState } from "react";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { Layout } from "antd";
+import "./App.css";
+import LoginDetails from "./LoginFrom/LoginDetails";
+import DashBoard from "./LoginFrom/DashBoard";
+import VerifiedSuccesMessage from "./LoginFrom/VerifiedSuccesMessage";
+
+const { Content } = Layout;
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <Routes>
+        <Route path="/" element={<LoginDetails />} />
+        <Route path="/verifiedSuccesMessage" element={<VerifiedSuccesMessage />} />
+        <Route path="/verifiedSuccesMessage/dashBoard" element={<DashBoard />} />
+      </Routes>
+    </Router>
   );
 }
 
